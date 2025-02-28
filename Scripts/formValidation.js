@@ -31,7 +31,7 @@
   
 } 
 
-// validateFunction is called within eventFunction to validate the form inputs
+
 // function 2 is called validateFunction because it validates the form inputs
 function validateFunction() {
     // if statement for validating if input values are empty by id
