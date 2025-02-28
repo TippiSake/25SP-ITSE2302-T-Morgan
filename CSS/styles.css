@@ -1,0 +1,252 @@
+/* old Colors:
+// indigo dye: #004966
+// hero blue:  #0086bd
+// avacado: #769027
+// apple green: #9DC035
+// dark moss green: #455417
+// night: #081010
+// charcoal light grey: #3E5461
+// redwood: #9b6554
+// maize: #F4E666
+// UT orange: #FF8F33
+// paler orange color: sandy brown: #FF9A47
+
+NEW COLORS:
+--rose-quartz: #b592a0ff;
+--chinese-violet: #7d6c89ff;
+-- baby powder: F8F7F2;
+-- anti-flash white: EBE9ED;
+-- french gray: #D6D2DA;
+--honeydew: #edffecff;
+--eggshell: #e2dfcaff;
+--light-blue: #a4d0e0ff;
+--yale-blue: #083d77ff;
+--oxford-blue: #021427;
+-- polynesioan blue: #08529B
+--dark blue: #011638
+--dark-purple: #1c0221ff;
+
+--rich black: #010A13;
+--prussian-violet: #0d0630ff;
+--deep-sky-blue: #30c5ffff;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f7f2;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Ubuntu, sans-serif;
+  color: #021427;
+}
+/* stylies for contactUs page body */
+#contactUs {
+  background-color: #ebe9ed;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Ubuntu, sans-serif;
+  color: #021427;
+}
+
+div#banner {
+  text-align: center;
+}
+header {
+  flex: 1 0 100%;
+}
+
+/*Navigation styles
+---removes bullets on the nav links--
+----------------------------------------*/
+nav {
+  width: 100%;
+  z-index: 1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 25px;
+}
+
+nav ul li {
+  background-color: #021427;
+  display: inline;
+  padding: 5px;
+  border-radius: 45px;
+  color: #ffffff;
+}
+
+nav ul li a {
+  border-radius: 25px;
+  color: #f8f7f2;
+}
+
+nav a:link {
+  color: #30c5ffff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 32px;
+  font-family: "Arial", monospace;
+}
+
+nav a:visited {
+  color: #ebe9ed;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 32px;
+  font-family: "Anta", monospace;
+}
+
+h1 {
+  text-align: center;
+  color: #083d77;
+}
+h2 {
+  text-align: center;
+  color: #08529b;
+}
+
+#intro {
+  columns: 2;
+  text-align: center;
+}
+#intro p {
+  text-align: center;
+  padding-left: 150px;
+  font-size: 18px;
+  color: #021427;
+}
+figure {
+  text-align: center;
+}
+
+div#gallery {
+  columns: 3;
+  text-align: center;
+}
+img {
+  border: 2px outset #d6d2da;
+  border-radius: 10px;
+}
+div#gallery {
+  padding: 10px 10px;
+  margin: auto;
+}
+
+#gallery figcaption {
+  text-align: center;
+  font-size: 18px;
+  color: #021427;
+}
+#gallery figcaption a:hover {
+  color: #b592a0ff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#gallery figcaption a:link {
+  color: #083d77;
+  text-decoration: none;
+  font-size: 22px;
+}
+#gallery figcaption a:visited {
+  color: #b592a0ff;
+}
+div#resources p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.logo {
+  text-align: center;
+}
+
+footer {
+  background-color: #b592a0ff;
+  line-height: normal;
+  color: #edffec;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 150px;
+}
+footer p {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 75px;
+}
+footer a:link {
+  color: #08529b;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+}
+
+/* Form styling */
+form {
+  justify-content: center;
+  background-color: #021427;
+  width: 33%;
+  margin: auto;
+  color: #edffec;
+  border-radius: 10px;
+}
+form h1 {
+  text-align: center;
+  color: #021427;
+  font-size: 20px;
+}
+input#firstName,
+#lastName,
+#email {
+  width: 50%;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+#buttons {
+  height: 100px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 15px;
+}
+fieldset {
+  text-align: center;
+  border: none;
+}
+#personal {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  text-align: center;
+}
+#personal {
+  padding: 10px 10px;
+}
+legend {
+  color: #30c5ffff;
+}
+
+#submit {
+  background-color: #30c5ffff;
+  color: #fff;
+  border: 1px outset #fafafb;
+  border-radius: 25px;
+}
+#reset {
+  background-color: #b592a0ff;
+  color: #010a13;
+  border: 1px outset #fafafb;
+  border-radius: 5px;
+}
